@@ -6,18 +6,25 @@ This script generates indices for using AlphaFold3 with a custom template (see h
 Align the query and template sequences using T-Coffee, Clustal Omega or a similar app. Execute the script as follows:
 
 QUERY='paste_the_complete_aligned_query_here'
+
 TEMPLATE='paste_the_complete_aligned_template_here'
+
 python3 make_af3_template_indices.py "$QUERY" "$TEMPLATE"
 
 For example, if the alignment is:
+
 Query     ACDFEG
+
 Template  A-EDYA
+
           * ::.
 
 enter the following in the Terminal windoow: 
 
 QUERY='ACDEFG'
+
 TEMPLATE='A-EDYA'
+
 python3 make_af3_template_indices.py "$QUERY" "$TEMPLATE"
 
 The output is:
