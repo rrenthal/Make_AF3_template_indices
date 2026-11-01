@@ -11,13 +11,10 @@ TEMPLATE='paste_the_complete_aligned_template_here'
 
 python3 make_af3_template_indices.py "$QUERY" "$TEMPLATE"
 
-For example, if the alignment is:
+For example, if the aligned sequences are 
 
 Query     ACDFEG
-
 Template  A-EDYA
-
-          * ::.
 
 enter the following in the Terminal windoow: 
 
